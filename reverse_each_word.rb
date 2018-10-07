@@ -7,8 +7,10 @@ end
 
 
 def reverse_each_word(string)
+  new_array2 = []
   newnew_string = string.split
-  newnew_string.collect {|x| x.reverse!}
+  newnew_string.collect {|x| new_array2 << x.reverse!}
+  new_array2.join(" ")
 
 
 
