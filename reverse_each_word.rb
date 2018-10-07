@@ -3,5 +3,6 @@ array =[]
   sentence.collect {|x|
      x.reverse
      array << x}
+  end
   return array
 end
