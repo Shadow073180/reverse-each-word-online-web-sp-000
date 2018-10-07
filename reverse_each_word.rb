@@ -1,6 +1,6 @@
 def reverse_each_word(sentence1)
   array =[]
-    sentence1.each do |x|
+    sentence1.map do |x|
       x.reverse
       array << x
     end
