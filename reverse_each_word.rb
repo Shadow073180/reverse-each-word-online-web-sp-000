@@ -1,4 +1,5 @@
-def reverse_each_word(sentence)
-  sentence1.collect {|x| x + "!"}
+def reverse_each_word(string)
+  string.split = string
+  string.each {|x| x + "!"}
 
 end
